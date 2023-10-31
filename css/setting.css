@@ -1,0 +1,203 @@
+/* Start Setting */
+.setting-page {
+grid-template-columns: repeat(auto-fill ,minmax(500px, 1fr));
+
+
+}
+@media (max-width:767px) {
+    .setting-page {
+        grid-template-columns: minmax(100px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+}
+.setting-page .close-message {
+    border: 1px solid #ccc;
+    resize: none;
+    min-height: 100px;
+}
+.setting-page .email {
+    display: inline-flex;
+    width: calc(100% - 80px);
+    
+}
+.setting-page .sec-box {
+padding-bottom: 15px;
+}
+.setting-page .sec-box .sec-button {
+    transition: 0.3s;
+}
+.setting-page .sec-box .sec-button:hover {
+    transition: background-color 0.3s ease;
+    background-color: var(--blue-alt-color);
+}
+/* Biometric Button */
+.setting-page .sec-box .sec-button.green:hover {
+    background-color: var(--green-alt-color);
+}
+
+
+@media (max-width:767px) {
+    .setting-page .sec-box .sec-button {
+    
+        flex-basis: 71%;
+        font-size: 12px;
+        font-weight: 400;
+}
+.setting-page .sec-box .sec-button.green::after {
+    content: "Enable Biometric ";
+    display: inline-flex;
+    
+    
+    
+}
+}
+@media (min-width: 991px) {
+    .setting-page .sec-box .sec-button.green::after {
+        content: "Enable Verification Biometric  ";
+        padding-left: 5px;
+    }
+}
+
+.setting-page .sec-box:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+.setting-page :disabled {
+    cursor: no-drop;
+    background-color: #f0f4f8;
+    color: #bbb;
+}
+.setting-page .social-boxes i {
+    width: 40px;
+    height: 40px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    transition: 0.3s;
+}
+.setting-page .social-boxes input {
+    height: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    
+    padding-left: 10px;
+    border-radius: 0 6px 6px 0;
+}
+.setting-page .social-boxes > div:focus-within i {
+color: black;
+}
+.widgets-control .control input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.widgets-control .control label {
+padding-left: 30px;
+cursor: pointer;
+position: relative;
+}
+.widgets-control .control label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    border-radius: 4px;
+    height: 14px;
+    border: 2px solid var(--grey-color);
+}
+.widgets-control .control label:hover::before {
+    border-color: var(--blue-alt-color);
+}
+.widgets-control .control label::after {
+    font-family: var(--fa-style-family-classic);
+    content: "\f00c";
+    font-weight: 900;
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    margin-top: -9px;
+    background-color: var(--blue-color);
+    color: white;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transform: scale(0) rotate(360deg);
+    transition: 0.3s;
+}
+.widgets-control .control input[type="checkbox"]:checked + label::after {
+transform: scale(1) rotate(0);
+}
+.backup-control  input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.backup-control .date label {
+padding-left: 30px;
+cursor: pointer;
+position: relative;
+}
+.backup-control .date label::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--grey-color);
+    border-radius: 50%;
+}
+.backup-control .date label:hover::before {
+    border-color: var(--blue-alt-color);
+}
+.backup-control .date label::after  {
+    content: "";
+    position: absolute;
+    left: 3.7px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    background: var(--blue-color);
+    border-radius: 50%;
+    transition: 0.3s ease;
+    transform: translateY(-50%) scale(0);
+}
+.backup-control .date input[type="radio"]:checked + label::after {
+    transform: translateY(-50%) scale(1) ;
+    }
+    .backup-control .servers {
+        border-top: 2px solid #eee;
+        padding-top: 20px;
+    }
+    @media (max-width:767px) {
+        .backup-control .servers {
+            flex-wrap: wrap;
+        }
+    }
+    .backup-control .servers .server {
+        border: 1px solid #eee;
+        position: relative;
+    }
+    .backup-control .servers .server label {
+        cursor: pointer;
+    }
+    .backup-control .servers input[type="radio"]:checked + .server {
+        color: var(--blue-color);
+        border-color: var(--blue-color);
+    }
+
+
+
+
+
+
+
+/* End Setting */
+

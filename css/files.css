@@ -1,0 +1,78 @@
+.files-page {
+flex-direction: row-reverse;
+align-items: flex-start;
+}
+@media (max-width:767px) {
+    .files-page {
+        flex-direction: column;
+        align-items: normal;
+        }
+}
+.files-page .files-stats {
+min-width: 260px;
+}
+.files-page .files-stats .size {
+margin-left: auto;
+}
+.files-page .files-stats  .upload{
+
+    transition: 0.3s;
+}
+.files-page .files-stats  .upload:hover{
+background-color: var(--blue-alt-color);
+}
+.files-page .files-stats  .upload:hover i{
+animation : bounce  1s infinite;
+}
+.files-page .p-absloute {
+    cursor: pointer;
+}
+
+.files-page .files-stats .icon {
+    width: 30px;
+    height: 30px;
+}
+.files-page .files-content  {
+flex: 1;
+grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+}
+.files-page .files-content img {
+width: 64px;
+height: 64px;
+animation:none ;
+}
+.files-page .files-content .file:hover img  {
+    animation: files 1.9s ;
+}
+.files-page .files-content .info {
+    border-top: 1px solid #eee;
+}
+@keyframes bounce   {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+@keyframes files {
+    0% {
+    transform: rotate(-5deg);
+    }
+    50% {
+    transform: rotate(5deg);
+    }
+    80% {
+    transform: rotate(-5deg);
+    }
+    100% {
+    transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,423 @@
+:root {
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5;
+    --orange-color:#f59e0b;
+    --red-color:#f44336;
+    --grey-color:#888
+}
+/* Start Box  */
+
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+.d-block {
+    display: block;
+}
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .block-mobile {
+        display: block;
+    }
+
+}
+/* End Box  */
+/* Start Padding + Margin  */
+.p-0 {
+    padding: 0;
+}
+.m-0 {
+    margin: 0;
+}
+.p-5 {
+    padding: 5px;
+}
+.m-5 {
+    margin: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.m-10 {
+    margin: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.m-15 {
+    margin: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-20 {
+    margin: 20px;
+}
+.p-25 {
+    padding: 25px;
+}
+.m-25 {
+margin: 25px;
+}
+.pt-0 {
+    padding-top: 0;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.pt-25 {
+    padding-top: 25px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.pr-0 {
+    padding-right: 0;
+}
+.mr-0 {
+    margin-right: 0;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.pr-15 {
+    padding-right: 15px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.pr-25 {
+    padding-right: 25px;
+}
+.mr-25 {
+    margin-right: 25px;
+}
+.pb-5 {
+    padding-bottom: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.pb-10 {
+    padding-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb {
+    margin-bottom: 5px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.pb-25 {
+    padding-bottom: 25px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.pl-0 {
+    padding-left: 0;
+}
+.ml-0 {
+    margin-left: 0;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.pl-25 {
+    padding-left: 25px;
+}
+.ml-25 {
+    margin-left: 25px;
+}
+.m-padding {
+    padding: auto;
+}
+.m-auto {
+    margin: auto;
+}
+/* End Padding + Margin  */
+/* Start Color */
+.c-black {
+    color: black;
+  }
+  .c-white {
+    color: white;
+  }
+  .c-grey {
+    color: var(--grey-color);
+  }
+  .c-red {
+    color: var(--red-color);
+  }
+  .c-green {
+    color: var(--green-color);
+  }
+  .c-blue {
+    color: var(--blue-color);
+  }
+  .c-orange {
+    color: var(--orange-color);
+  }
+  .c-pink {
+    color:#e1306c;
+  }
+  .c-eth {
+    color: #48cbd9;
+  }
+  .bg-red {
+    background-color: var(--red-color);
+  }
+  .bg-green {
+    background-color: var(--green-color);
+  }
+  .bg-blue {
+    background-color: var(--blue-color);
+  }
+  .bg-orange {
+    background-color: var(--orange-color);
+  }
+  .bg-white {
+    background-color: white;
+  }
+  .bg-eee {
+    background-color: #eee;  }
+/* END Color */
+/* Start Position  */
+.relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/* End Position  */
+/* Start Border  */
+
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-half {
+    border-radius: 50%;
+}
+.b-none {
+    border: none;
+}
+.border-ccc {
+    border: 1px solid #ccc;
+}
+.border-eee {
+    border: 1px solid #eee;
+}
+.b-vip {
+    border: 5px solid var(--orange-color);
+}
+/* End Border  */
+/* Start Font  */
+.txt-c {
+    text-align: center;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fw-600 {
+    font-weight: 600;
+}
+/* End Font  */
+/* Start Width + Height  */
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+.w-25 {
+    width: 25px;
+}
+.w-40 {
+    width: 40px;
+
+}
+.h-40 {
+    height: 40px;
+}
+.h-100 {
+    height: 100px;
+}
+.h-full {
+    height: 100%;
+}
+/* End Width + Height  */
+/* Start Compennts  */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-between {
+    justify-content: space-between;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+
+/* End Compennts  */
+/* Start Toggle CheckBox */
+.toggle-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+    
+    }
+    .toggle-switch {
+        background-color: #ccc;
+        width: 78px;
+        height: 32px;
+        border-radius: 16px;
+        position: relative;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+    }
+    .toggle-switch::before {
+        content: "\f00d";
+        font-family: var(--fa-style-family-classic);
+        font-weight: 900;
+        background-color: white;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #aaa;
+        transition: 0.3s;
+    }
+    
+    .toggle-checkbox:checked + .toggle-switch {
+    background-color: var(--blue-color);
+    
+    }
+    .toggle-checkbox:checked +.toggle-switch::before {
+        content: "\f00c";
+    left: 50px;
+    color: var(--blue-color); 
+    
+    
+    }
+/* End Toggle CheckBox */

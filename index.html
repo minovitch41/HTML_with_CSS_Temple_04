@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | AKX</title>
+    
+    <!-- Link Fontawesome Library  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Framework Local For Css -->
+    <link rel="stylesheet" href="./css/Framework.css">
+    <!-- Link Css External -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Link Css NormalizeCss -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Link GoogleFonts Family External  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+</head>
+<body>
+<div class="page d-flex">
+    <div class="sidebar bg-white p-20 relative">
+        <h3 class="relative txt-c mt-0 ">AKX</h3>
+<ul >
+    <li> <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="./index.html">
+        <i class="fa-regular fa-chart-bar"></i>
+        <span>Dashboard</span>
+    </a>
+    </li>
+
+    <li> <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="./setting.html">
+        <i class="fa-solid fa-gear"></i>
+        <span>Setting</span>
+    </a>
+    </li>
+    
+    <li> <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="./profile.html">
+        <i class="fa-regular fa-user"></i>
+        <span>Profile</span>
+    </a>
+    </li>
+    
+    <li> <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="./projects.html">
+        <i class="fas fa-regular fa-briefcase"></i>
+        <span>Projects</span>
+    </a>
+
+    <li> <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="./courses.html">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span>Courses</span>
+    </a>
+    </li>
+
+    <li> <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="./friends.html">
+        <i class="fa-regular fa-address-book"></i>
+        <span>Friends</span>
+    </a>
+    </li>
+
+    <li> <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="./files.html">
+        <i class="fa-regular fa-folder"></i>
+        <span>Files</span>
+    </a>
+    </li>
+    
+    <li> <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="./plans.html">
+        <i class="fa-regular fa-credit-card"></i>
+        <span>Plans</span>
+    </a>
+    </li>
+    
+    
+    
+    </li>
+    
+
+</ul>
+</div>
+    <div class="content w-full">
+        <!-- Start Head  -->
+        <div class="head between-flex bg-white p-10  ">
+            <div class="search relative">
+                <input class="p-10" type="search" placeholder="Type A Keyword">
+
+            </div>
+            <div  class="icons d-flex align-center">
+                <span class=" notification relative ">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                </span>
+                <img decoding="async" src="./imgs/welcome.png" alt="">
+            </div>
+        </div>
+        <!-- End Head  -->
+        <h1 class="relative">Dashboard</h1>
+        <div class="wrapper d-grid gap-20">
+            <!-- Start Welcome Widget  -->
+            <div class="welcome bg-white rad-10 txt-c-mobile block-mobile ">
+                <div class="intro p-20 d-flex between-flex bg-eee">
+                    <div>
+                        <h2 class="m-0"> Welcome</h2>
+                        <p class="c-grey mt-5">AKX</p>
+                    </div>
+                        <img class="hide-mobile" decoding="async" src="./imgs/welcome.2.svg" alt="">
+                </div>
+                <img decoding="async" src="./imgs/welcome.png" alt="" class="avatar">
+                <div class="body txt-c d-flex p-20 mt-20 mb-20 block-mobile">
+                    <div>Amine AKX <span class="d-block c-grey fs-14 mt-10 block-mobile">Developer</span></div>
+                    <div>10 <span class="d-block c-grey fs-14 mt-10 block-mobile">Project</span></div>
+                    <div>$8880 <span class="d-block c-grey fs-14 mt-10 block-mobile">Earned</span></div>
+                </div>
+                <a href="pofile.html" class="visit d-block fs-14  bg-blue c-white w-fit btn-shape"> My Profile</a>
+            </div>
+            <!-- End Welcome Widget  -->
+            <!-- Start Quick Draft Widget  -->
+            <div class="quick-draft bg-white p-20 rad-10  ">
+                <h2 class="mt-0 mb-10">
+                    Quick Draft</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">Write A Draft For Your Ideas</p>
+                
+                    <form>
+                        <input class="d-block mb-20 w-full p-10 b-none bg-eee rad-6"  type="text" name="" placeholder="Title">
+                        <textarea class="d-block mb-20 w-full p-10 b-none bg-eee rad-6" placeholder="Your Thought"></textarea>
+                        <input class="  save d-block fs-14 bg-blue c-white b-none w-fit btn-shape" type="submit" value="save">
+                    </form>
+                
+            </div>
+            <!-- End Quick Draft Widget  -->
+            <!-- Start Targets -->
+            <div class="targets p-20 bg-white rad-10  ">
+                <h2 class="mt-0 mb-10">Yearly Target</h2>
+                <p class="c-grey mt-0 mb-20 fs-15">Target Of The Year</p>
+                <div class="target-row mb-20  d-flex align-center blue">
+                    <div class="icon center-flex">
+                        <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                    </div>
+                    <div class="details">
+                        <span class="fs-14 c-grey ">Money</span>
+                        <span class="d-block mt-5 mb-10 fw-bold">$62,000</span>
+                        <div class="progress relative">
+                            <span class="bg-blue blue" style="width: 71%">
+                                <span class="bg-blue">71%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="target-row mb-20  d-flex align-center orange">
+                    <div class="icon center-flex">
+                        <i class="fa-solid fa-code fa-lg c-orange"></i>
+                    </div>
+                    <div class="details">
+                        <span class="fs-14 c-grey ">Projects</span>
+                        <span class="d-block mt-5 mb-10 fw-bold">8</span>
+                        <div class="progress relative">
+                            <span class="bg-orange orange" style="width: 62%">
+                                <span class="bg-orange">62%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="target-row mb-20  d-flex align-center green">
+                    <div class="icon center-flex">
+                        <i class="fa-solid fa-user fa-lg c-green"></i>
+                    </div>
+                    <div class="details">
+                        <span class="fs-14 c-grey ">Team</span>
+                        <span class="d-block mt-5 mb-10 fw-bold">3</span>
+                        <div class="progress relative">
+                            <span class="bg-green green" style="width: 80%">
+                                <span class="bg-green">80%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Targets -->
+            <!-- Start Ticket Widget -->
+            <div class="tickets p-20 bg-white rad-10">
+                <h2 class="mt-0">Tickets Statistics</h2>
+                <p class="mt-0 mb-20 c-grey fs-15">Everything About Support Tickets</p>
+                <div class="d-flex txt-c gap-20 f-wrap">
+                <div class="box p-20 rad-10 fs-13 c-grey">
+                    <i class="fa-solid fa-download fa-2x mb-10 c-orange"></i>
+                    <span class="d-block c-black fw-bold  fs-25 mb-5">694</span>
+                    Total
+                </div>
+
+                <div class="box p-20 rad-10 fs-13 c-grey">
+                    <i class="fa-solid fa-spinner fa-spin-pulse fa-2x mb-10 c-blue"></i>
+                    <span class="d-block c-black fw-bold  fs-25 mb-5">143</span>
+                    Pending
+                </div>
+                <div class="box p-20 rad-10 fs-13 c-grey">
+                    <i class="fa-regular fa-thumbs-up fa-bounce fa-2x mb-10 c-green"></i>
+                    <span class="d-block c-black fw-bold  fs-25 mb-5">433</span>
+                    Closed
+                </div>
+                                <div class="box p-20 rad-10 fs-13 c-grey">
+                                    <i class="fa-regular fa-circle-xmark fa-shake fa-2x mb-10 c-red"></i>
+                    <span class="d-block c-black fw-bold  fs-25 mb-5">73</span>
+                    Deleted
+                </div>
+                </div>
+            </div>
+            <!-- End Ticket Widget -->
+            <!-- Start Latest News  -->
+            <div class="latest-news  p-20 bg-white rad-10 txt-c-mobile ">
+                <h2 class="mt-0 mb-20"> Latest News</h2>
+                <div class="news-row d-flex align-center">
+                    <img src="./imgs/audit.jpg" alt="">
+                    <div class="info">
+                        <h3>How Become Smart Contract Audit ? ...</h3>
+                        <p class="m-0 fs-13 c-grey">Audit Smart Contract | Blockchain</p>
+                    </div>
+                    <div class="btn-shape bg-eee fs-13 label">1 Days ago..</div>
+                </div>
+
+                <div class="news-row d-flex align-center">
+                    <img src="./imgs/ganache.webp" alt="">
+                    <div class="info">
+                        <h3>What Is Ganache ...</h3>
+                        <p class="m-0 fs-13 c-grey">Ganche is Powe.. | Blockchain</p>
+                    </div>
+                    <div class="btn-shape bg-eee fs-13 label">15 Days ago..</div>
+                </div>
+
+                <div class="news-row d-flex align-center">
+                    <img src="./imgs/sol.react.png" alt="">
+                    <div class="info">
+                        <h3>New App decentralization</h3>
+                        <p class="m-0 fs-13 c-grey">Poker: Enhanced Interface with React and Solidity Power | Blockchain</p>
+                    </div>
+                    <div class="btn-shape bg-eee fs-13 label">45 Days ago..</div>
+                </div>
+
+                <div class="news-row d-flex align-center">
+                    <img src="./imgs/eth.jpeg" alt="">
+                    <div class="info">
+                        <h3>Ethereum DeFi Exchange </h3>
+                        <p class="m-0 fs-13 c-grey">Ethereum DeFi Exchange AirSwap Rolls Out NFT Marketplace | Blockchain</p>
+                    </div>
+                    <div class="btn-shape bg-eee fs-13 label">last 3 month..</div>
+                </div>
+
+            </div>
+            <!-- End Latest News  -->
+            <!-- Start Tasks -->
+            <div class="tasks p-20 bg-white rad-10">
+                <h2 class="mt-0 mb-20">Lastest Tasks</h2>
+                <div class="task-row  between-flex">
+                    <div class="info">
+                        <h3 class="mt-0 mb-5 fs-15">Install RemixIDe</h3>
+                        <p class="m-0 c-grey">Install Remix And create SmartContract</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </div>
+
+                <div class="task-row  between-flex">
+                    <div class="info">
+                        <h3 class="mt-0 mb-5 fs-15">Create Responsive Navigation Menu</h3>
+                        <p class="m-0 c-grey">Design and implement a responsive navigation menu that adapts seamlessly to various screen sizes and devices.</p>
+                </div>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </div>
+
+                <div class="task-row  between-flex">
+                    <div class="info">
+                        <h3 class="mt-0 mb-5 fs-15">Implement CSS Animations</h3>
+                        <p class="m-0 c-grey">Add captivating CSS animations to enhance user interaction and engagement on specific website elements.</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </div>
+                <div class="task-row  between-flex">
+                    <div class="info done">
+                        <h3 class="mt-0 mb-5 fs-15">Integrate Third-Party APIs</h3>
+                        <p class="m-0 c-grey">Incorporate external APIs to fetch real-time data or enhance functionality, ensuring seamless integration and data accuracy.</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </div>
+                
+
+            </div>
+            <!-- End Tasks -->
+            <!-- Start Top Search WordWid -->
+            <div class="search-items p-20 bg-white rad-10">
+                <h2 class="mt-0 mb-20">Top Search Items</h2>
+                <div class="items-head d-flex space-between c-grey mb-10"> 
+                    <div>Keywords</div>
+                    <div>Search Count</div>
+                </div>
+                <div class="items d-flex   space-between pt-15 pb-15">
+                    <span>Programming</span>
+                    <span class="bg-eee fs-13 btn-shape">320</span>
+                </div>
+                <div class="items d-flex   space-between pt-15 pb-15">
+                    <span>Blockchain</span>
+                    <span class="bg-eee fs-13 btn-shape">178</span>
+                </div>
+                <div class="items d-flex   space-between pt-15 pb-15">
+                    <span>Design</span>
+                    <span class="bg-eee fs-13 btn-shape">164</span>
+                </div>
+                <div class="items d-flex  space-between  pt-15 pb-15">
+                    <span>Javascript</span>
+                    <span class="bg-eee fs-13 btn-shape">140</span>
+                </div>
+                <div class="items d-flex   space-between pt-15 pb-15">
+                    <span>Solidity</span>
+                    <span class="bg-eee fs-13 btn-shape">139</span>
+                </div>
+                <div class="items d-flex   space-between pt-15 pb-15">
+                    <span>Hardhat</span>
+                    <span class="bg-eee fs-13 btn-shape">73</span>
+                </div>
+                
+            </div>
+            <!-- End Top Search WordWid -->
+            <!-- Start Latest Upload  -->
+            <div class="latest-uploads p-20 bg-white rad-10 ">
+                <h2 class="mt-0 mb-20">Lastet Upload</h2>
+                <ul class=>
+                    <li class="between-flex pb-10 m-10">
+                        <div class="d-flex align-center">
+                            <img class="mr-10 " src="./imgs/icons/solidity.png" alt="">
+                            <div>
+                                <span class="d-block">FirstContract.sol</span>
+                                <span class="fs-15 c-grey">AKX</span>
+                            </div>
+                        </div>
+                        <div class="bg-eee btn-shape fs-13">2.7mb</div>
+                    </li>
+                    <li class="between-flex pb-10 m-10">
+                        <div class="d-flex align-center">
+                            <img class="mr-10 " src="./imgs/icons/js.png" alt="">
+                            <div>
+                                <span class="d-block">Hardhat.js</span>
+                                <span class="fs-15 c-grey">Mohamed Akram</span>
+                            </div>
+                        </div>
+                        <div class="bg-eee btn-shape fs-13">3.94mb</div>
+                    </li>
+                    <li class="between-flex pb-10 m-10">
+                        <div class="d-flex align-center">
+                            <img class="mr-10 " src="./imgs/icons/html.png" alt="">
+                            <div>
+                                <span class="d-block">Ecommerce-Dash.html</span>
+                                <span class="fs-15 c-grey">User</span>
+                            </div>
+                        </div>
+                        <div class="bg-eee btn-shape fs-13">13.4mb</div>
+                    </li>
+                    <li class="between-flex pb-10 m-10">
+                        <div class="d-flex align-center">
+                            <img class="mr-10 " src="./imgs/icons/css.png" alt="">
+                            <div>
+                                <span class="d-block">GridGreen.css</span>
+                                <span class="fs-15 c-grey">AKX</span>
+                            </div>
+                        </div>
+                        <div class="bg-eee btn-shape fs-13">0.64mb</div>
+                    </li>
+                    <li class="between-flex pb-10 m-10">
+                        <div class="d-flex align-center">
+                            <img class="mr-10 " src="./imgs/icons/solidity.png" alt="">
+                            <div>
+                                <span class="d-block">SWAP-V3.sol</span>
+                                <span class="fs-15 c-grey">AKX</span>
+                            </div>
+                        </div>
+                        <div class="bg-eee btn-shape fs-13">12.16mb</div>
+                    </li>
+                    <li class="between-flex pb-10 m-10">
+                        <div class="d-flex align-center">
+                            <img class="mr-10 " src="./imgs/icons/pdf.png" alt="">
+                            <div>
+                                <span class="d-block">Conditions-and-terms.pdf</span>
+                                <span class="fs-15 c-grey">Owner</span>
+                            </div>
+                        </div>
+                        <div class="bg-eee btn-shape fs-13">22.43mb</div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Latest Upload  -->
+            <!-- Start Last Project  -->
+            <div class="last-project p-20 bg-white rad-10 relative">
+                <h2 class="mt-0 mb-20">Last Project Progress</h2>
+                <ul class="m-0 relative">
+                    <li class="mt-25 d-flex align-center done">Got The Project</li>
+                    <li class="mt-25 d-flex align-center done">Started The Project</li>
+                    <li class="mt-25 d-flex align-center done">The Project About To Finish</li>
+                    <li class="mt-25 d-flex align-center current">Test The Project</li>
+                    <li class="mt-25 d-flex align-center ">Finish The Project ^^ Get Money</li>
+                </ul>
+                <img class="hide-mobile launch-icon" src="./imgs/icons/metamask.png" alt="">
+            </div>
+            <!-- End Last Project  -->
+            <!-- Start Reminders -->
+            <div class="reminders p-20 bg-white rad-10 relative">
+                <h2 class="mt-0 mb-25">Reminders</h2>
+                <ul >
+                    <li class="d-flex align-center mt-15">
+                    <span class="key bg-blue mr-15 d-block rad-half"></span>
+                    <div class="pl-15 blue">
+                        <p class="fs-14 fw-bold mt-0 mb-5">Check My Tasks List</p>
+                        <span class="fs-13 c-grey"> 31/12/2023 - 10:00am</span>
+                    </div>
+
+                    </li>
+                    <li class="d-flex align-center mt-15">
+                        <span class="key bg-green mr-15 d-block rad-half"></span>
+                        <div class="pl-15 green">
+                            <p class="fs-14 fw-bold mt-0 mb-5">Check My Projects</p>
+                            <span class="fs-13 c-grey"> 01/01/2024 - 9:15am</span>
+                        </div>
+                    </li>
+                    
+                    <li class="d-flex align-center mt-15">
+                        <span class="key bg-orange mr-15 d-block rad-half"></span>
+                        <div class="pl-15 orange">
+                            <p class="fs-14 fw-bold mt-0 mb-5">Call All My Clients</p>
+                            <span class="fs-13 c-grey"> 03/01/2024 - 11:00am</span>
+                        </div>
+                    </li>
+
+                    <li class="d-flex align-center mt-15">
+                        <span class="key bg-red mr-15 d-block rad-half"></span>
+                        <div class="pl-15 red">
+                            <p class="fs-14 fw-bold mt-0 mb-5">Finish The Development Workshop</p>
+                            <span class="fs-13 c-grey"> 31/01/2024 - 12:00pm</span>
+                        </div>
+                    </li>
+                </ul>   
+            </div>
+            <!-- End Reminders -->
+            <!-- Start Lastest Post -->
+            <div class="latest-post p-20 bg-white rad-10 relative">
+                <h2 class="mt-0 mb-25">Latest Post</h2>
+                <div class="top d-flex align-center">
+                    <img class="avatar mr-15" src="./imgs/welcome.png" alt="">
+                    <div class="info">
+                        <span class="d-block mb-5">Amine AKX</span>
+                        <span class="c-grey">About 1 hour 28 min Ago..</span>
+                    </div>
+                </div>
+                <div class="post-content txt-c-mobile pt-20 pb-20 mt-20 mb-20">
+                    Embrace your challenges, for <span class="c-blue fw-bold">audentes fortuna iuvat </span> fortune favors the bold. In audacious endeavors, there lies the potential for great success. Let this ancient wisdom inspire you to face your audits with courage, for in daring to confront adversity, you pave the way for triumph and growth.
+                </div>
+                <div class="post-stats between-flex c-grey">
+                    <div class="like-heart">
+                    <i class="heart fa-solid fa-heart fa-lg  c-red"></i>
+                    <span>1.7K</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-comments fa-lg"></i>
+                    <span>699</span>
+                </div>
+            </div >
+            </div >
+            <!-- End Lastest Post -->
+            <!-- Start Social Media Widget  -->
+            <div class="social-media p-20 bg-white rad-10">
+                <h2 class="mt-0 mb-25" >Social Media Stats</h2>
+                <div class="box twitter p-15 relative mb-10 between-flex ">
+                    <i class="fa-brands fa-x-twitter fa-2x c-white h-full center-flex"></i>
+                    <span>13,6K Followers</span>
+                    <a class="fs-13 c-white btn-shape" href="">Follow</a>
+                </div>
+                
+                
+                <div class="box instagram p-15 relative mb-10 between-flex">
+                    <i class="fa-brands fa-instagram fa-2x c-white h-full center-flex"></i>
+                    <span>18K Followers</span>
+                    <a class="fs-13 c-white btn-shape" href="">Follow</a>
+                </div>
+                
+                <div class="box linkedin p-15 relative mb-10 between-flex">
+                    <i class="fa-brands fa-linkedin fa-2x c-white h-full center-flex"></i>
+                    <span>30K Followers</span>
+                    <a class="fs-13 c-white btn-shape" href="">Connect</a>
+                </div>
+                
+                <div class="box youtube p-15 relative mb-10 between-flex">
+                    <i class="fa-brands fa-youtube fa-2x c-white h-full center-flex"></i>
+                    <span>22K Subscribers</span>
+                    <a class="fs-13 c-white btn-shape" href="">Subscribe</a>
+                </div>
+                
+            </div>
+            <!-- End Social Media Widget  -->
+        </div>
+            <!-- Start Project Table  -->
+            <div class="projects p-20 bg-white rad-10 m-20 ">
+                <h2 class="mt-0 mb-20">Projects</h2>
+                <div class="responsive-table">
+                    <table class="fs-15 w-full">
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Finish Date</td>
+                                <td>Client</td>
+                                <td>Price</td>
+                                <td>Team</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>TechHub Connect</td>
+                                <td>15 April 2023</td>
+                                <td>DigitalSprint Inc.</td>
+                                <td>$5,300</td>
+                                <td>
+                                    <img src="./imgs/team/team-04.png" alt="">
+                                    <img src="./imgs/team/team-02.png" alt="">
+                                    <img src="./imgs/team/team-01.png" alt="">
+                                    <img src="./imgs/team/team-03.png" alt="">
+                                </td>
+                                <td><span class="label btn-shape bg-orange c-white">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>CryptoPulse</td>
+                                <td>15 June 2023</td>
+                                <td>CryptoTech Innovations</td>
+                                <td>$7,200</td>
+                                <td>
+                                    <img src="./imgs/team/team-03.png" alt="Team 03">
+                                    <img src="./imgs/team/team-01.png" alt="Team 01">
+                                </td>
+                                <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>NexaChain</td>
+                                <td>25 July 2023</td>
+                                <td>XYZ Corp</td>
+                                <td>$6,200</td>
+                                <td>
+                                    <img src="./imgs/team/team-05.png" alt="Team 05">
+                                    <img src="./imgs/team/team-03.png" alt="Team 03">
+                                    <img src="./imgs/team/team-02.png" alt="Team 02">
+                                </td>
+                                <td><span class="label btn-shape bg-blue c-white">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Uniswap</td>
+                                <td>12 August 2023</td>
+                                <td>DeFi Protocol</td>
+                                <td>$9,000</td>
+                                <td>
+                                    <img src="./imgs/team/team-03.png" alt="Team 03">
+                                    <img src="./imgs/team/team-01.png" alt="Team 01">
+                                    <img src="./imgs/team/team-02.png" alt="Team 02">
+                                </td>
+                                <td><span class="label btn-shape bg-green c-white">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Compound</td>
+                                <td>20 September 2023</td>
+                                <td>DeFi Lending Platform</td>
+                                <td>$50,000</td>
+                                <td>
+                                    <img src="./imgs/team/team-02.png" alt="Team 02">
+                                    <img src="./imgs/team/team-04.png" alt="Team 04">
+                                </td>
+                                <td><span class="label btn-shape bg-red c-white">Rejected</span></td>
+                            </tr>
+                            <tr>
+                                <td>Ethereum 2.0</td>
+                                <td>5 October 2023</td>
+                                <td>QuantumChain Ventures</td>
+                                <td>$30,000</td>
+                                <td>
+                                    <img src="./imgs/team/team-04.png" alt="Tean 04">
+                                    <img src="./imgs/team/team-03.png" alt="Team 03">
+                                    <img src="./imgs/team/team-01.png" alt="Team 01">
+                                </td>
+                                <td><span class="label btn-shape bg-orange c-white">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Yearn Finance</td>
+                                <td>18 November 2023</td>
+                                <td>DeFi Aggregator</td>
+                                <td>$67,000</td>
+                                <td>
+                                    <img src="./imgs/team/team-01.png" alt="Team 01">
+                                    <img src="./imgs/team/team-02.png" alt="Team 02">
+                                    <img src="./imgs/team/team-03.png" alt="Team 03">
+                                    <img src="./imgs/team/team-04.png" alt="Team 04">
+                                    <img src="./imgs/team/team-05.png" alt="Team 05">
+                                </td>
+                                <td><span class="label btn-shape bg-blue c-white">In Progress</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- End Project Table  -->
+        
+    </div>
+</div>
+</body>
+</html>
